@@ -26,7 +26,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <footer className="site-footer">
           <div className="footer-inner">
             <div className="footer-brand">
-              <Logo size={30} />
+              <Logo size={34} />
               <span className="footer-title">{SITE.name}</span>
             </div>
             <p>{SITE.footer}</p>

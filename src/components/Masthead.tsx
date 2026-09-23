@@ -18,7 +18,7 @@ export default function Masthead() {
     <header className="topbar">
       <div className="topbar-inner">
         <Link href="/" className="brand" aria-label={`${SITE.name} home`}>
-          <Logo size={38} />
+          <Logo size={44} />
           <span className="brand-name">{SITE.name}</span>
         </Link>
         <NavTabs />

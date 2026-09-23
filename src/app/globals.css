@@ -580,3 +580,6 @@ main:has(> .nameplate) { padding-top: 0; }
 /* keep the footer at the bottom on short pages */
 body { min-height: 100vh; display: flex; flex-direction: column; }
 body > .page { flex: 1; width: 100%; }
+
+/* logo sits on a light disc in the dark footer so the brown stays visible */
+.footer-brand .logo-mark { background: var(--paper); border-radius: 50%; padding: 4px; box-sizing: content-box; }
