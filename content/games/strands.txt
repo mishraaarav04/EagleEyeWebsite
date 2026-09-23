@@ -20,8 +20,8 @@
 # ─────────────────────────────────────────────────────────────
 title: Strands
 date: September 22, 2026
-author: The Eagle Eye Puzzle Desk
+author: Aarav Mishra
 
-theme: Home away from home
+theme: Going Clubbing
 spangram: EAGLE EYE
 words: LAUNDRY, ROOMMATE, MICROWAVE, LOUNGE, FINALS, QUAD
