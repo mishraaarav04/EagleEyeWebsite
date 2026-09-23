@@ -67,6 +67,7 @@ If a puzzle file has a mistake, the game page shows a message explaining what's 
 
 ## Changing the look
 
+- Logo: put your logo image in `public/` named `logo.png` (or `.svg` / `.jpg` / `.webp`). Square works best.
 - Site name and tagline: `src/lib/site.ts`
 - Colors and layout: `src/app/globals.css` (the yellow accent is `--yellow-accent` at the top)
 - Fonts (Fraunces, Newsreader, Archivo): imported in `src/app/layout.tsx`
