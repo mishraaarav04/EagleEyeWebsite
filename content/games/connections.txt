@@ -1,0 +1,19 @@
+# ─────────────────────────────────────────────────────────────
+#  THE EAGLE EYE — CONNECTIONS
+#  Replace this file to change the puzzle on the website.
+#
+#  • Lines starting with # are ignored (notes to yourself).
+#  • title / date / author are optional.
+#  • Write exactly 4 groups, one per line:
+#        Group name: WORD, WORD, WORD, WORD
+#  • Put them in order of difficulty:
+#        1st = yellow (easiest), 2nd = green, 3rd = blue, 4th = purple (hardest)
+# ─────────────────────────────────────────────────────────────
+title: Connections
+date: September 22, 2026
+author: The Eagle Eye Puzzle Desk
+
+Things in a dorm room: BED, DESK, LAMP, CLOSET
+Laundry room sights: DRYER, WASHER, DETERGENT, LINT
+Words before "MATE": ROOM, CLASS, TEAM, FLAT
+Kinds of eagle: BALD, GOLDEN, HARPY, STEPPE

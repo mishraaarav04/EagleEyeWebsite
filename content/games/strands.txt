@@ -1,0 +1,27 @@
+# ─────────────────────────────────────────────────────────────
+#  THE EAGLE EYE — STRANDS
+#  Replace this file to change the puzzle on the website.
+#
+#  • Lines starting with # are ignored.
+#  • theme:    the clue players see
+#  • spangram: the special word that stretches across the whole board
+#  • words:    the other theme words, separated by commas
+#              (you can also put them on several lines)
+#
+#  The website builds the letter grid for you. The letters of the
+#  spangram + all words must add up to exactly 48 (the normal 8 x 6 board).
+#  If the site says the count is off, add or remove a word.
+#
+#  Advanced (optional):
+#    size: 7x7        -> use a different board shape (rows x columns)
+#    grid:            -> type your own board, one row per line, e.g.
+#    ABCDEF
+#    ...
+# ─────────────────────────────────────────────────────────────
+title: Strands
+date: September 22, 2026
+author: The Eagle Eye Puzzle Desk
+
+theme: Home away from home
+spangram: EAGLE EYE
+words: LAUNDRY, ROOMMATE, MICROWAVE, LOUNGE, FINALS, QUAD
