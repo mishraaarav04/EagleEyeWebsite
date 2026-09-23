@@ -68,4 +68,5 @@ If a puzzle file has a mistake, the game page shows a message explaining what's 
 ## Changing the look
 
 - Site name and tagline: `src/lib/site.ts`
-- Colors, fonts, and layout: `src/app/globals.css`
+- Colors and layout: `src/app/globals.css` (the yellow accent is `--yellow-accent` at the top)
+- Fonts (Fraunces, Newsreader, Archivo): imported in `src/app/layout.tsx`

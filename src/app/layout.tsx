@@ -1,6 +1,13 @@
 import type { Metadata } from "next";
 import Masthead from "@/components/Masthead";
+import Logo from "@/components/Logo";
 import { SITE } from "@/lib/site";
+// Fonts are bundled with the site (no Google Fonts request needed)
+import "@fontsource-variable/fraunces/opsz.css";
+import "@fontsource-variable/fraunces/opsz-italic.css";
+import "@fontsource-variable/newsreader/opsz.css";
+import "@fontsource-variable/newsreader/opsz-italic.css";
+import "@fontsource-variable/archivo/index.css";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -11,24 +18,20 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-        {/* eslint-disable-next-line @next/next/no-page-custom-font */}
-        <link
-          rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&family=Libre+Franklin:wght@400;500;600;700;800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap"
-        />
-      </head>
       <body>
+        <Masthead />
         <div className="page">
-          <Masthead />
           <main>{children}</main>
-          <footer className="site-footer">
-            <div className="footer-title">{SITE.name}</div>
-            <p>{SITE.footer}</p>
-          </footer>
         </div>
+        <footer className="site-footer">
+          <div className="footer-inner">
+            <div className="footer-brand">
+              <Logo size={30} />
+              <span className="footer-title">{SITE.name}</span>
+            </div>
+            <p>{SITE.footer}</p>
+          </div>
+        </footer>
       </body>
     </html>
   );

@@ -1,27 +1,29 @@
 import Link from "next/link";
 import { SITE } from "@/lib/site";
+import Logo from "./Logo";
 import NavTabs from "./NavTabs";
 
+// USA Today–style header bar: logo disc on the left, bold section links,
+// date on the right. Sticks to the top of the screen while scrolling.
 export default function Masthead() {
   const today = new Date().toLocaleDateString("en-US", {
-    weekday: "long",
-    year: "numeric",
-    month: "long",
+    weekday: "short",
+    month: "short",
     day: "numeric",
+    year: "numeric",
     timeZone: "America/New_York",
   });
 
   return (
-    <header className="masthead">
-      <div className="masthead-top">
-        <span className="masthead-date">{today}</span>
-        <span className="masthead-edition">Dorm Edition</span>
+    <header className="topbar">
+      <div className="topbar-inner">
+        <Link href="/" className="brand" aria-label={`${SITE.name} home`}>
+          <Logo size={38} />
+          <span className="brand-name">{SITE.name}</span>
+        </Link>
+        <NavTabs />
+        <span className="topbar-date">{today}</span>
       </div>
-      <Link href="/" className="masthead-title">
-        {SITE.name}
-      </Link>
-      <p className="masthead-tagline">{SITE.tagline}</p>
-      <NavTabs />
     </header>
   );
 }
