@@ -11,9 +11,11 @@
 # ─────────────────────────────────────────────────────────────
 title: Connections
 date: September 22, 2026
-author: The Eagle Eye Puzzle Desk
+author: Rachael Robinson
 
-Things in a dorm room: BED, DESK, LAMP, CLOSET
-Laundry room sights: DRYER, WASHER, DETERGENT, LINT
-Words before "MATE": ROOM, CLASS, TEAM, FLAT
-Kinds of eagle: BALD, GOLDEN, HARPY, STEPPE
+Card Games: BLUFF, HEARTS, SPADES, SPOONS
+____ Work: NET, FRAME, HOME, ART
+Things That Can Follow "Tea": BAG, PARTY, KETTLE, CUP
+____ Apple: CRAB, PINE, CARAMEL, CANDY
+
+
