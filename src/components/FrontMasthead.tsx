@@ -19,7 +19,7 @@ export default function FrontMasthead() {
       <div className="nameplate-meta">
         <span>{today}</span>
         <span className="nameplate-tagline">{SITE.tagline}</span>
-        <span>Dorm Edition</span>
+        <span> Online Edition</span>
       </div>
     </div>
   );
